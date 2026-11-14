@@ -11,7 +11,7 @@ def batting():
         print(c)
         o=o+u
         if u==c:
-            print("OUT Hehe !!")
+            print("OUT !!")
             print("Your Total Run --",o)
             print("Now My Batting , Your Bawling")
             print("")
@@ -22,7 +22,7 @@ def batting():
                 print(cc)
                 k=k+cc
                 if k>o:
-                    print("Hehe !!")
+                    print("!!")
                     print("My Total Run --",k)
                     print("")
                     print("    Score")
@@ -30,10 +30,10 @@ def batting():
                     print("",o,"//   ",k)
                     print("")
                     print("I Won The Game")
-                    print("You Became CRY CRY :)) ")
+                    
                     return
                 elif cc==us:
-                    print("OUT Hehe !!")
+                    print("OUT !!")
                     print("My Total Run --",k)
                     print("")
                     print("    Score")
@@ -42,16 +42,16 @@ def batting():
                     print("")
                     if o>k:
                         print("You Won The Game")
-                        print("I Became CRY CRY :(( ")
+                        
                         return
                         
                     elif o<k:
                         print("I Won The Game")
-                        print("You Became CRY CRY :)) ")
+                        
                         return
                     else:
                         print("Tie")
-                        print("Both Became CRY CRY :( :) ")
+                        
                         return
                 
 def bawling():
@@ -64,7 +64,7 @@ def bawling():
         print(cc)
         k=k+cc
         if cc==us:
-            print("OUT Hehe !!")
+            print("OUT !!")
             print("My Total Run --",k)
             print("Now My Bawling , Your Batting")
             print("")
@@ -75,7 +75,7 @@ def bawling():
                 print(c)
                 o=o+u
                 if o>k:
-                    print(" Hehe !!")
+                    print("Out !!")
                     print("Your Total Run --",o)
                     print("")
                     print("    Score")
@@ -83,10 +83,10 @@ def bawling():
                     print("",o,"//   ",k)
                     print("")
                     print("You Won The Game")
-                    print("I Became CRY CRY :(( ")
+                    
                     return
                 elif u==c:
-                    print("OUT Hehe !!")
+                    print("OUT !!")
                     print("Your Total Run --",o)
                     print("")
                     print("    Score")
@@ -95,16 +95,16 @@ def bawling():
                     print("")
                     if o>k:
                         print("You Won The Game")
-                        print("I Became CRY CRY :(( ")
+                        
                         return
                         
                     elif o<k:
                         print("I Won The Game")
-                        print("You Became CRY CRY :)) ")
+                        
                         return
                     else:
                         print("Tie")
-                        print("Both Became CRY CRY :( :) ")
+                        
                         return
 def crazybatting():
     print("Now My Bawling , Your Batting")
@@ -116,11 +116,11 @@ def crazybatting():
         print(c)
         if u==c:
             u=(u**2)
-            print("Ehhhhhh hehehhe")
+            
             print("")
         o=o+u
         if c==(u-1) or c==(u+1) or (c==10 and u==1) or (u==10 and c==1):
-            print("OUT Hehe !!")
+            print("OUT !!")
             print("Your Total Run --",o)
             print("Now My Batting , Your Bawling")
             print("")
@@ -131,11 +131,11 @@ def crazybatting():
                 print(cc)
                 if us==cc:
                     cc=(cc**2)
-                    print("Ehhhhhh hehehehe")
+                    
                     print("")
                 k=k+cc
                 if k>o:
-                    print(" Hehe !!")
+                    print("Out !!")
                     print("My Total Run --",k)
                     print("")
                     print("    Score")
@@ -143,10 +143,10 @@ def crazybatting():
                     print("",o,"//   ",k)
                     print("")
                     print("I Won The Game")
-                    print("You Became CRY CRY :)) ")
+                    
                     return
                 if us==(cc-1) or us==(cc+1) or (cc==10 and us==1) or (us==10 and cc==1):
-                    print("OUT Hehe !!")
+                    print("OUT !!")
                     print("My Total Run --",k)
                     print("")
                     print("    Score")
@@ -155,16 +155,16 @@ def crazybatting():
                     print("")
                     if o>k:
                         print("You Won The Game")
-                        print("I Became CRY CRY :(( ")
+                        
                         return
                         
                     elif o<k:
                         print("I Won The Game")
-                        print("You Became CRY CRY :)) ")
+                        
                         return
                     else:
                         print("Tie")
-                        print("Both Became CRY CRY :( :) ")
+                        
                         return
 def crazybawling():
     print("Now My Batting , Your Bawling")
@@ -176,11 +176,11 @@ def crazybawling():
         print(cc)
         if us==cc:
             cc=(cc**2)
-            print("Ehhhhhh hehehehe")
+            
             print("")
         k=k+cc
         if us==(cc+1) or us==(cc-1) or (cc==10 and us==1) or (us==10 and cc==1):
-            print("OUT Hehe !!")
+            print("OUT !!")
             print("My Total Run --",k)
             print("Now My Bawling , Your Batting")
             print("")
@@ -191,11 +191,11 @@ def crazybawling():
                 print(c)
                 if u==c:
                     u=(u**2)
-                    print("Ehhhhhh hehehhe")
+                    
                     print("")
                 o=o+u
                 if o>k:
-                    print(" Hehe !!")
+                    print(" !!")
                     print("Your Total Run --",o)
                     print("")
                     print("    Score")
@@ -203,10 +203,10 @@ def crazybawling():
                     print("",o,"//   ",k)
                     print("")
                     print("You Won The Game")
-                    print("I Became CRY CRY :(( ")
+                    
                     return
                 if c==(u-1) or c==(u+1) or (c==10 and u==1) or (c==1 and u==10):
-                    print("OUT Hehe !!")
+                    print("OUT !!")
                     print("Your Total Run --",o)
                     print("")
                     print("    Score")
@@ -214,22 +214,22 @@ def crazybawling():
                     print("",o,"//   ",k)
                     if o>k:
                         print("You Won The Game")
-                        print("I Became CRY CRY :(( ")
+                        
                         return
                     elif o<k:
                         print("I Won The Game")
-                        print("You Became CRY CRY :)) ")
+                        
                         return
                     else:
                         print("Tie")
-                        print("Both Became CRY CRY :( :) ")
+                        
                         return
 while True:
     p=input("Normal OR Crazy --").lower()
     q=["normal","crazy"]
     if p not in q:
-        print("Tussi Jarre ho :(")
-        print("Tussi Na Jao :\\ ")
+        
+        print("Are you sure, You want to Exit ")
         b=input("(y/n)").lower()
         if b=="y":
             break
@@ -336,6 +336,8 @@ while True:
                     break
 print("")
 print("Thanks For Playing")
+
+
 
 
 
